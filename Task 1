@@ -1,0 +1,17 @@
+a = int(input('Enter Value of a: '))
+b = int(input('Enter Value of b: '))
+
+print('\n *: 1\n +: 2\n -: 3\n /: 4\n')
+c = int(input('Select Mathemetical Operation: '))
+
+if c == 1:
+  print('Result = ', a*b)
+elif c == 2:
+  print('Result = ', a+b)
+elif c == 3:
+  print('Result = ', a-b)
+elif c == 4:
+  print('Result = ', a/b)
+else:
+  print(c, 'is not a valid operation')
+
